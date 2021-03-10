@@ -6,18 +6,16 @@ packages = ["modelplace_api"]
 
 package_data = {"": ["*", "text_styles/*"]}
 install_requires = [
-    "pydantic==1.5.1",
+    "pydantic==1.8.1",
     "loguru==0.5.1",
 ]
 
 extras_require = {
     "vis": [
         "Pillow==7.1.2",
-        "numpy>=1.16.4",
-        "opencv-python>=4.2.0.34,<5.0",
         "imageio==2.9.0",
         "sk-video==1.1.10",
-        "pycocotools==2.0.0",
+        "pycocotools==2.0.2",
     ],
 }
 
